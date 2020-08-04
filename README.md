@@ -14,6 +14,8 @@ Things I've learnt while building this project:
 - --help for help
 - Models are singular, Controllers are plural
 - Markdown writing
+- Resource Routing vs Non Resource Routing
+- What is Root
 
 1) Made posts controller 
 
@@ -33,6 +35,11 @@ Things I've learnt while building this project:
 > invoke  assets
 > invoke    scss
 > create      app/assets/stylesheets/posts.scss
+
+2) Routes
+Resource routing allows you to quickly declare all of the common routes for a given resourceful controller. Instead of declaring separate routes for your index, show, new, edit, create, update and destroy actions, a resourceful route declares them in a single line of code.
+https://guides.rubyonrails.org/routing.html
+
 
 
 This README would normally document whatever steps are necessary to get the
